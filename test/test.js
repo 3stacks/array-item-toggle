@@ -46,3 +46,23 @@ describe('Testing with string inputs', function() {
         })
     })
 });
+
+describe('Testing with non-primitives', function() {
+    describe('Test with objects', function() {
+        it('should not match identical objects', function() {
+            expect(
+                arrayItemToggle([{}, {}], {})
+            ).to.deep.equal([{}, {}, {}]);
+            expect(
+                arrayItemToggle([{foo: 'bar'}, {foo: 'bar'}], {foo: 'bar'})
+            ).to.deep.equal([{foo: 'bar'}, {foo: 'bar'}, {foo: 'bar'}])
+        })
+    });
+    // describe('Test with function', function() {
+    //     it('should not match identical functions', function() {
+    //         expect(
+    //             arrayItemToggle([function() {}, function() {}], function() {})
+    //         ).to.deep.equal([function() {}, function() {}, function() {}])
+    //     })
+    // })
+});
