@@ -1,3 +1,16 @@
-import {helloWorld} from '../../../src/index';
+import toggleArrayItem from '../../../src/index';
 
-helloWorld('Easy as pie, 3.14');
+const array = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+];
+
+const itemNotExist = 9;
+const itemExist = 1;
+
+console.log(toggleArrayItem(array, itemExist));
+console.log(toggleArrayItem(array, itemNotExist));
