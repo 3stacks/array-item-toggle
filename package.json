@@ -1,6 +1,6 @@
 {
   "name": "@lukeboyle/array-item-toggle",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "This is a simple boilerplate project to get started quickly with ES6 modules. The purpose of this is to make a module to easily publish on npm.",
   "main": "index.js",
   "dependencies": {
