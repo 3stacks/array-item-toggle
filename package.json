@@ -16,6 +16,15 @@
     "type": "git",
     "url": "git+https://3stacks@github.com/3stacks/array-item-toggle.git"
   },
+  "keywords": [
+    "toggle",
+    "array",
+    "item",
+    "add",
+    "if",
+    "not",
+    "set"
+  ],
   "author": "Luke Boyle",
   "license": "MIT",
   "bugs": {
