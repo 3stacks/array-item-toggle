@@ -1,8 +1,9 @@
 {
   "name": "@lukeboyle/array-item-toggle",
-  "version": "1.0.0",
-  "description": "This is a simple boilerplate project to get started quickly with ES6 modules. The purpose of this is to make a module to easily publish on npm.",
+  "version": "1.0.1",
+  "description": "A helper function to check if an item is an array and add it if not.",
   "main": "index.js",
+  "main:jsNext": "src/index.js",
   "dependencies": {
     "babel-runtime": "^6.9.2"
   },
