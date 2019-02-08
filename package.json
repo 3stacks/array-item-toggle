@@ -1,6 +1,6 @@
 {
   "name": "@lukeboyle/array-item-toggle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper function to check if an item is an array and add it if not.",
   "main": "index.js",
   "main:jsNext": "src/index.js",
